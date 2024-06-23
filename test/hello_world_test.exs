@@ -10,20 +10,22 @@ defmodule HelloWorldTest do
       # actual codebase.
       #
 
-      Date
+      assert HelloWorld.utc_today()
+
+      HelloWorld
       |> expect(:utc_today, 10, fn -> %Date{year: 2024, month: 3, day: 1} end)
 
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
 
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
-      assert Date.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
+      assert HelloWorld.utc_today() == ~D[2024-03-01]
     end
   end
 end

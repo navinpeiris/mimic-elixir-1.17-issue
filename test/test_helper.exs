@@ -1,3 +1,3 @@
-Mimic.copy(Date)
+Mimic.copy(HelloWorld)
 
 ExUnit.start()

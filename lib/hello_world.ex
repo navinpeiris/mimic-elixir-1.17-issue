@@ -3,16 +3,7 @@ defmodule HelloWorld do
   Documentation for `HelloWorld`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> HelloWorld.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  def utc_today do
+    Date.utc_today()
   end
 end
